@@ -1,4 +1,3 @@
-p5.disableFriendlyErrors=true;
 let data;
 let dataObj;
 
