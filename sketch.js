@@ -5,7 +5,7 @@ let dataObj;
 let pageColor = "#050223";
 
 let circleSize;
-let padding = 230;
+let padding = 350;
 
 function preload() {
   data = loadTable("assets/data.csv", "csv", "header");
@@ -89,7 +89,7 @@ function setup() {
   text("The length and area of the rectangle", windowWidth/2 + 113, 382);
   text("represent the length and area of the river.", windowWidth/2 + 113, 394);
   text("The color represent the average temperature.", windowWidth/2 + 113, 406);
-  text("The rings are the lengths of 4000 and 2000 km", windowWidth/2 + 110, 350);
+  text("The rings are the lengths of 5000 and 2500 km", windowWidth/2 + 110, 350);
   text("Outflow", windowWidth/2 -140, 370);
 
   //grafico
@@ -159,7 +159,7 @@ function cerchioRiferimentoLunghezza (x,y){
   noFill();
   stroke ("#17144f");
   drawingContext.setLineDash([10, 10]);
-  ellipse (x, y, 2 * (circleSize/2 + 200 * (3000/6000)));
-  //ellipse (x, y, 2 * (circleSize/2 + 200 * (2000/6000)));
+  ellipse (x, y, 2 * (circleSize/2 + 200 * (5000/6000)));
+  ellipse (x, y, 2 * (circleSize/2 + 200 * (2500/6000)));
   
 }
