@@ -1,10 +1,11 @@
+//Ho scoperto troppo tardi che con dimensioni troppo grandi il codice non carica, riducendo la dimensione della finestra funziona
 let data;
 let dataObj;
 
 let pageColor = "#050223";
 
 let circleSize;
-let padding = 280;
+let padding = 350;
 
 function preload() {
   data = loadTable("assets/data.csv", "csv", "header");
