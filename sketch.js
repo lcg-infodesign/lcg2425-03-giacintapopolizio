@@ -4,7 +4,7 @@ let dataObj;
 let pageColor = "#050223";
 
 let circleSize;
-let padding = 400;
+let padding = 350;
 
 function preload() {
   data = loadTable("assets/data.csv", "csv", "header");
