@@ -56,7 +56,7 @@ function setup() {
   //titolo
   stroke("lightblue");
   fill("lightblue");
-  textSize(50)
+  textSize(50);
   textAlign(CENTER, CENTER);
   text("The ends of the World's", windowWidth/2, 100);
   text("100 Longest Rivers", windowWidth/2, 150);
@@ -71,20 +71,20 @@ function setup() {
   ellipse (windowWidth/2, 370, 80);
   fill("#7377ad");
   noStroke();
-  rect(windowWidth/2, 367, 50, 6)
+  rect(windowWidth/2, 367, 50, 6);
   fill("lightblue");
   ellipse (windowWidth/2, 370, 20);
-  stroke("white")
+  stroke("white");
   drawingContext.setLineDash([0, 0]);
-  line(windowWidth/2 - 100, 370, windowWidth/2, 370)
-  line(windowWidth/2 + 45, 370, windowWidth/2 + 100, 370)
-  line(windowWidth/2 + 35, 350, windowWidth/2 + 100, 350)
+  line(windowWidth/2 - 100, 370, windowWidth/2, 370);
+  line(windowWidth/2 + 45, 370, windowWidth/2 + 100, 370);
+  line(windowWidth/2 + 35, 350, windowWidth/2 + 100, 350);
   noStroke();
-  fill("white")
-  textSize(15)
+  fill("white");
+  textSize(15);
   text("River:", windowWidth/2 + 130, 370);
-  textSize(10)
-  textAlign(LEFT, CENTER)
+  textSize(10);
+  textAlign(LEFT, CENTER);
   text("The length and area of the rectangle", windowWidth/2 + 113, 382);
   text("represent the length and area of the river.", windowWidth/2 + 113, 394);
   text("The color represent the average temperature.", windowWidth/2 + 113, 406);
@@ -112,7 +112,7 @@ function setup() {
       let areaFiume = fiume ["area"];
       let temperatura = fiume ["avg_temp"];
       let spessore = areaFiume / 150000
-      let nome = fiume ["name"]
+      let nome = fiume ["name"];
 
       push();
       
@@ -159,6 +159,6 @@ function cerchioRiferimentoLunghezza (x,y){
   stroke ("#17144f");
   drawingContext.setLineDash([10, 10]);
   ellipse (x, y, 2 * (circleSize/2 + 200 * (5000/6000)));
-  ellipse (x, y, 2 * (circleSize/2 + 200 * (2500/6000)))
+  ellipse (x, y, 2 * (circleSize/2 + 200 * (2500/6000)));
   
 }
